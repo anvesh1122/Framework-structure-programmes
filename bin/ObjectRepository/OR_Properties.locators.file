@@ -1,0 +1,7 @@
+
+
+user_id=identifierId
+user_nxt=identifierNext
+pass_wrd=password
+pass_nxt=passwordNext
+x_path=//input[@name='error']

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.TestNGlisteners.pack.PrePostActivites"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.BusinessScriptsPackage.GmailTest1">
+        <methods>
+          <include name="FbTest"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="gmailtest1"/>
+        </methods>
+      </class> <!-- com.BusinessScriptsPackage.GmailTest1 -->
+      <class name="com.BusinessScriptsPackage.Fbtest">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.BusinessScriptsPackage.Fbtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
